@@ -13,7 +13,7 @@ using namespace std;
         int diff = 0;
         if(n == 1){
             cout<<arr[0]<<endl;
-            break;+-
+            break;
         }
         for(int i=0;i<n;i++){
             diff = max(diff,arr[i+1] - arr[i]);
