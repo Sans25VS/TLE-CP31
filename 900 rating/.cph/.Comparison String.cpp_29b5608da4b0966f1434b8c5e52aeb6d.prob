@@ -1,0 +1,1 @@
+{"name":"Local: Comparison String","url":"c:\\Users\\SANSKAR\\Desktop\\CP 31\\900 rating\\Comparison String.cpp","tests":[{"id":1717049120157,"input":"4\n4\n<<>>\n4\n>><<\n5\n>>>>>\n7\n<><><><\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\SANSKAR\\Desktop\\CP 31\\900 rating\\Comparison String.cpp","group":"local","local":true}

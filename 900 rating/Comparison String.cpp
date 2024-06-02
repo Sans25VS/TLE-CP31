@@ -8,16 +8,25 @@ int main(){
         cin>>n;
         string s;
         cin>>s;
-        int count;
-        for(int i=0; i<n-1; i++){
-            if(s[i] == '<' && s[i+1] == '>'){
-
+        int maxi = 1;
+        int count = 1;
+        for(int i = 1; i < n; i++){
+            if(s[i] == s[i-1]){
+                count++;
             }
+            else{
+                count = 1;
+            }
+                maxi = max(maxi,count);
+            
+
         }
 
 
+    cout<<maxi+1<<endl;
+
+    
+
     }
-
-
     return 0;
 }
