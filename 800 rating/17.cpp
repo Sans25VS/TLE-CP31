@@ -10,15 +10,16 @@ int main(){
         if(n%k != x){
         ans.push_back(n%k);
         }
-        for(int i = 0; i <n/k; i++){
+        for(int i = 1; i <=n/k; i++){
             if(k == x){
                 cout<<"No"<<endl;
                 break;
             }
             ans.push_back(k);
         }
-        cout<<ans.size()<<endl;
+        cout<<"YES"<<endl;
         for(int i = 0; i <ans.size(); i++) {
+           
             cout<<ans[i]<<" ";
         }
         cout<<endl;
